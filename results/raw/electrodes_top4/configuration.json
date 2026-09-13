@@ -1,0 +1,22 @@
+{
+ "method": "ours",
+ "ablation": null,
+ "electrodes": [
+  0,
+  1,
+  8,
+  15
+ ],
+ "channels": [
+  0,
+  7,
+  14,
+  21,
+  28,
+  98
+ ],
+ "seed": 2027,
+ "epochs": 300,
+ "patience": 50,
+ "command": "python train.py --electrodes top4 --jobs 24 --gpus 0,1"
+}

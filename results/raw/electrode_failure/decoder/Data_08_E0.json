@@ -1,0 +1,14 @@
+{
+ "configuration": "full",
+ "fold": "Data_08",
+ "dataset_no": 8,
+ "electrode": 0,
+ "n_channels_zeroed": 15,
+ "n_channels_total": 120,
+ "channels": null,
+ "mae_test": 0.5503,
+ "mae_failure": 0.5682,
+ "delta": 0.0178,
+ "mae_test_exact": 0.55033940076828,
+ "mae_failure_exact": 0.5681638121604919
+}

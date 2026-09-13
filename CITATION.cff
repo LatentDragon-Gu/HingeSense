@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the paper below."
+title: "HingeSense: calibration-anchored angle decoding for a self-sensing SCM hinge"
+type: software
+version: 1.0.0
+license: MIT
+authors:
+  - family-names: Gu
+    given-names: Panlong
+    affiliation: Zhejiang University
+  - family-names: Zhang
+    given-names: Hong
+    affiliation: Zhejiang University
+  - family-names: Qu
+    given-names: Shaoxing
+    affiliation: Zhejiang University
+preferred-citation:
+  type: article
+  title: "A Geometry-Preserving Self-Sensing SCM Hinge with Calibration-Anchored Decoding for Sub-Degree Joint Proprioception"
+  authors:
+    - family-names: Gu
+      given-names: Panlong
+    - family-names: Zhang
+      given-names: Hong
+    - family-names: Qu
+      given-names: Shaoxing
+  journal: "IEEE Transactions on Industrial Electronics"
+  year: 2026

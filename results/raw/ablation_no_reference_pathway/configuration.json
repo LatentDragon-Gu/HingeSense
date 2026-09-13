@@ -1,0 +1,10 @@
+{
+ "method": "ours",
+ "ablation": "no_reference_pathway",
+ "electrodes": null,
+ "channels": null,
+ "seed": 2027,
+ "epochs": 300,
+ "patience": 50,
+ "command": "python train.py --ablation no_reference_pathway --jobs 24 --gpus 0,1"
+}

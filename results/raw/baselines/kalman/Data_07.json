@@ -1,0 +1,23 @@
+{
+ "method": "kalman",
+ "fold": "Data_07",
+ "dataset_no": 7,
+ "mae_seq": 8.4845,
+ "mae_shuf": 23.9314,
+ "per_block": {
+  "b96_1": 23.5076,
+  "b96_2": 23.5948,
+  "b128_1": 24.2584,
+  "b128_2": 24.3646
+ },
+ "extra": {
+  "q": 0.001,
+  "r": 4.0,
+  "val_mae": 5.7424,
+  "ridge_cached": true
+ },
+ "mae_seq_exact": 8.484486240060864,
+ "mae_shuf_exact": 23.931353686301353,
+ "seed": 2027,
+ "device": "cpu"
+}

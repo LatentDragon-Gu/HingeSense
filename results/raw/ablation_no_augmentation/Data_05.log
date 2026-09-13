@@ -1,0 +1,69 @@
+command: python -m hingesense.trainer --out results/raw/ablation_no_augmentation --target Data_05 --seed 2027 --epochs 300 --patience 50 --ablation no_augmentation
+UserWarning: Can't initialize NVML
+os: Linux-6.8.0-138-generic-x86_64-with-glibc2.35
+cpu: Intel(R) Xeon(R) Platinum 8480C x224, ram 1007.5 GB
+gpu: NVIDIA H100 (driver 580.173.02)
+python 3.11.15, torch 2.12.0+cu130, cuda 13.0
+channel mask top40 = [6, 7, 8, 9, 10, 11, 12, 13, 14, 21, 22, 25, 26, 27, 28, 34, 38, 41, 46, 48, 53, 57, 59, 61, 62, 64, 67, 69, 71, 72, 74, 76, 77, 78, 80, 81, 83, 84, 85, 98]
+=== Data_05 seed=2027 epochs=300 patience=50 ablation=no_augmentation channels=120 dev=cuda:0 ===
+pool=14 folds (flips=False)
+  [Data_05] cond=noload sources=13
+  [Data_05] NEWBEST ep0 val=3.7643 test=1.8339
+  [Data_05] ep 0 val 3.7643 best 3.7643@ep0 pat 0 (6s)
+  [Data_05] NEWBEST ep1 val=2.4058 test=1.8823
+  [Data_05] ep 1 val 2.4058 best 2.4058@ep1 pat 0 (13s)
+  [Data_05] NEWBEST ep2 val=1.6694 test=1.7147
+  [Data_05] ep 2 val 1.6694 best 1.6694@ep2 pat 0 (19s)
+  [Data_05] ep 3 val 2.2822 best 1.6694@ep2 pat 1 (25s)
+  [Data_05] ep 4 val 1.9067 best 1.6694@ep2 pat 2 (31s)
+  [Data_05] ep 5 val 2.3692 best 1.6694@ep2 pat 3 (38s)
+  [Data_05] ep 6 val 2.7799 best 1.6694@ep2 pat 4 (44s)
+  [Data_05] ep 7 val 2.5006 best 1.6694@ep2 pat 5 (50s)
+  [Data_05] ep 8 val 3.1179 best 1.6694@ep2 pat 6 (56s)
+  [Data_05] ep 9 val 2.8956 best 1.6694@ep2 pat 7 (62s)
+  [Data_05] ep 10 val 2.9090 best 1.6694@ep2 pat 8 (69s)
+  [Data_05] ep 11 val 2.8320 best 1.6694@ep2 pat 9 (75s)
+  [Data_05] ep 12 val 3.4019 best 1.6694@ep2 pat 10 (81s)
+  [Data_05] ep 13 val 4.3760 best 1.6694@ep2 pat 11 (88s)
+  [Data_05] ep 14 val 3.5653 best 1.6694@ep2 pat 12 (94s)
+  [Data_05] ep 15 val 3.6405 best 1.6694@ep2 pat 13 (101s)
+  [Data_05] ep 16 val 3.7994 best 1.6694@ep2 pat 14 (107s)
+  [Data_05] ep 17 val 3.6984 best 1.6694@ep2 pat 15 (114s)
+  [Data_05] ep 18 val 3.3492 best 1.6694@ep2 pat 16 (120s)
+  [Data_05] ep 19 val 3.7844 best 1.6694@ep2 pat 17 (127s)
+  [Data_05] ep 20 val 3.5686 best 1.6694@ep2 pat 18 (133s)
+  [Data_05] ep 21 val 4.0915 best 1.6694@ep2 pat 19 (139s)
+  [Data_05] ep 22 val 4.1267 best 1.6694@ep2 pat 20 (146s)
+  [Data_05] ep 23 val 4.1366 best 1.6694@ep2 pat 21 (152s)
+  [Data_05] ep 24 val 3.4792 best 1.6694@ep2 pat 22 (159s)
+  [Data_05] ep 25 val 3.9315 best 1.6694@ep2 pat 23 (165s)
+  [Data_05] ep 26 val 4.2314 best 1.6694@ep2 pat 24 (171s)
+  [Data_05] ep 27 val 4.1058 best 1.6694@ep2 pat 25 (178s)
+  [Data_05] ep 28 val 4.1795 best 1.6694@ep2 pat 26 (184s)
+  [Data_05] ep 29 val 4.3503 best 1.6694@ep2 pat 27 (191s)
+  [Data_05] ep 30 val 3.9794 best 1.6694@ep2 pat 28 (197s)
+  [Data_05] ep 31 val 3.9786 best 1.6694@ep2 pat 29 (203s)
+  [Data_05] ep 32 val 4.0960 best 1.6694@ep2 pat 30 (210s)
+  [Data_05] ep 33 val 3.9808 best 1.6694@ep2 pat 31 (216s)
+  [Data_05] ep 34 val 3.8146 best 1.6694@ep2 pat 32 (223s)
+  [Data_05] ep 35 val 4.3543 best 1.6694@ep2 pat 33 (229s)
+  [Data_05] ep 36 val 4.2782 best 1.6694@ep2 pat 34 (236s)
+  [Data_05] ep 37 val 4.0232 best 1.6694@ep2 pat 35 (242s)
+  [Data_05] ep 38 val 4.2581 best 1.6694@ep2 pat 36 (248s)
+  [Data_05] ep 39 val 4.2350 best 1.6694@ep2 pat 37 (255s)
+  [Data_05] ep 40 val 3.6152 best 1.6694@ep2 pat 38 (261s)
+  [Data_05] ep 41 val 4.4113 best 1.6694@ep2 pat 39 (268s)
+  [Data_05] ep 42 val 4.2427 best 1.6694@ep2 pat 40 (273s)
+  [Data_05] ep 43 val 3.9164 best 1.6694@ep2 pat 41 (280s)
+  [Data_05] ep 44 val 4.1552 best 1.6694@ep2 pat 42 (286s)
+  [Data_05] ep 45 val 3.9703 best 1.6694@ep2 pat 43 (292s)
+  [Data_05] ep 46 val 4.0210 best 1.6694@ep2 pat 44 (299s)
+  [Data_05] ep 47 val 3.6729 best 1.6694@ep2 pat 45 (305s)
+  [Data_05] ep 48 val 4.0983 best 1.6694@ep2 pat 46 (312s)
+  [Data_05] ep 49 val 3.4476 best 1.6694@ep2 pat 47 (318s)
+  [Data_05] ep 50 val 4.3950 best 1.6694@ep2 pat 48 (325s)
+  [Data_05] ep 51 val 4.2826 best 1.6694@ep2 pat 49 (331s)
+  [Data_05] ep 52 val 3.8575 best 1.6694@ep2 pat 50 (337s)
+  [Data_05] EARLYSTOP ep52 best 1.6694@ep2
+*** Data_05 test MAE 1.715 (338s)
+==== Data_05 DONE

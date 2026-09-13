@@ -1,0 +1,72 @@
+{
+ "info": {
+  "platform": "NVIDIA H100 GPU",
+  "pytorch": "2.12.0+cu130",
+  "python": "3.11.15",
+  "cuda": "13.0",
+  "device": "cuda:0",
+  "threads": 112,
+  "cpu": "Intel(R) Xeon(R) Platinum 8480C",
+  "gpu": "NVIDIA H100",
+  "weights": "results/raw/decoder/Data_01_model.pt"
+ },
+ "model": {
+  "params": 294417,
+  "params_by_module": {
+   "heads": 17952,
+   "fuse": 41312,
+   "fusegate": 8256,
+   "drift": 226896,
+   "logtau": 1
+  },
+  "size_fp32_MiB": 1.1231117248535156
+ },
+ "compute": {
+  "mac_encode": 310272,
+  "n_anchor": 980,
+  "embed_dim": 96,
+  "mac_anchor_matching": 94080,
+  "anchor_dict_fp32_KiB": 371.328125
+ },
+ "latency_batch1_ms": {
+  "n": 2000,
+  "median_ms": 0.669683504384011,
+  "mean_ms": 0.6719187525159214,
+  "p95_ms": 0.680534983985126,
+  "p99_ms": 0.6908049690537155
+ },
+ "latency_batch1_compute_only_ms": {
+  "n": 2000,
+  "median_ms": 0.5994834937155247,
+  "mean_ms": 0.600256903533591,
+  "p95_ms": 0.6079190061427653,
+  "p99_ms": 0.6231159786693752
+ },
+ "throughput": {
+  "1": {
+   "frames_per_s": 1727.7179407019798
+  },
+  "32": {
+   "frames_per_s": 49204.34571694076
+  },
+  "256": {
+   "frames_per_s": 391124.68461205764
+  },
+  "1536": {
+   "frames_per_s": 2392787.9864619575
+  }
+ },
+ "feature_step_cpu_us": {
+  "n": 2000,
+  "median_us": 22.3699607886374,
+  "p95_us": 22.949010599404573,
+  "mean_us": 22.463381435954943
+ },
+ "gpu_memory": {
+  "peak_alloc_MiB": 38.474609375
+ },
+ "acquisition_period_ms": 200.0,
+ "fold": "Data_01",
+ "dataset_no": 1,
+ "command": "python -m hingesense.cost --model-dir results/raw/decoder --fold Data_01 --device cuda:0 --threads 0 --iters 2000 --out results/raw/inference_cost/decoder_gpu.json"
+}

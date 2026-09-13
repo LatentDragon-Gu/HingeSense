@@ -1,0 +1,10 @@
+{
+ "method": "ours",
+ "ablation": null,
+ "electrodes": null,
+ "channels": null,
+ "seed": 2027,
+ "epochs": 300,
+ "patience": 50,
+ "command": "python train.py --jobs 24 --gpus 0,1"
+}

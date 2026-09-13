@@ -1,0 +1,22 @@
+{
+ "method": "mlp",
+ "fold": "Data_03",
+ "dataset_no": 3,
+ "mae_seq": 3.4011,
+ "mae_shuf": 3.4011,
+ "per_block": {
+  "b96_1": 3.4011,
+  "b96_2": 3.4011,
+  "b128_1": 3.4011,
+  "b128_2": 3.4011
+ },
+ "extra": {
+  "best_ep": 35,
+  "best_val": 3.9572,
+  "n_sources": 52
+ },
+ "mae_seq_exact": 3.4010530117812947,
+ "mae_shuf_exact": 3.4010530117812947,
+ "seed": 2027,
+ "device": "cuda:0"
+}

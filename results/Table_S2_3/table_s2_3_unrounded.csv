@@ -1,0 +1,3 @@
+file,platform,pytorch,median_ms,p95_ms,mean_ms,p99_ms,timed_queries,anchors
+results/raw/inference_cost/decoder_cpu1.json,"Intel Xeon Platinum 8480C CPU, one thread",2.12.0+cu130,0.42609497904777527,0.43772795470431447,0.42666805698536336,0.44328701915219426,1000,980
+results/raw/inference_cost/decoder_gpu.json,NVIDIA H100 GPU,2.12.0+cu130,0.669683504384011,0.680534983985126,0.6719187525159214,0.6908049690537155,2000,980

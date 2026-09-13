@@ -1,0 +1,20 @@
+# electrode permutation importance, global ranking
+# score_global = mean of the normalised importance over the 12 evaluated datasets; score_noload = datasets 1,2,3,4,5,6; score_assembly = datasets 7,8,9,10,11,12
+# produced by: python electrode_importance.py --jobs 24 --gpus 0,1   (seed 2027, 10 permutations per electrode)
+# rank electrode score_global score_noload score_assembly
+1 E8 0.925225 0.864833 0.985617
+2 E0 0.865808 0.860733 0.870883
+3 E15 0.799167 0.883067 0.715267
+4 E1 0.722000 0.777017 0.666983
+5 E6 0.668158 0.803567 0.532750
+6 E9 0.632833 0.743633 0.522033
+7 E7 0.473833 0.593483 0.354183
+8 E14 0.461708 0.508533 0.414883
+9 E12 0.317508 0.240267 0.394750
+10 E4 0.271658 0.187967 0.355350
+11 E13 0.209267 0.347717 0.070817
+12 E3 0.173700 0.090300 0.257100
+13 E5 0.155275 0.263083 0.047467
+14 E10 0.154792 0.243233 0.066350
+15 E2 0.104917 0.175317 0.034517
+16 E11 0.040392 0.023367 0.057417

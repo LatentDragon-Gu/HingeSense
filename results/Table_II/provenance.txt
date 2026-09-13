@@ -1,0 +1,9 @@
+command: python make_tables.py --only Table_II
+started: 2026-09-12 17:43:25
+elapsed_s: 1.2
+os: Linux-6.8.0-138-generic-x86_64-with-glibc2.35
+cpu: Intel(R) Xeon(R) Platinum 8480C x224, ram 1007.5 GB
+gpu: NVIDIA H100, NVIDIA H100 (driver 580.173.02)
+python 3.11.15, torch 2.12.0+cu130, cuda 13.0
+inputs:
+  all inputs present

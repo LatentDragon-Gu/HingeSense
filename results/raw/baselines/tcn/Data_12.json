@@ -1,0 +1,22 @@
+{
+ "method": "tcn",
+ "fold": "Data_12",
+ "dataset_no": 12,
+ "mae_seq": 17.0335,
+ "mae_shuf": 17.3029,
+ "per_block": {
+  "b96_1": 17.2543,
+  "b96_2": 17.2346,
+  "b128_1": 17.3686,
+  "b128_2": 17.3542
+ },
+ "extra": {
+  "best_ep": 10,
+  "best_val": 16.3753,
+  "n_sources": 32
+ },
+ "mae_seq_exact": 17.033498764038086,
+ "mae_shuf_exact": 17.30294942855835,
+ "seed": 2027,
+ "device": "cuda:0"
+}

@@ -1,0 +1,22 @@
+{
+ "method": "es",
+ "fold": "Data_07",
+ "dataset_no": 7,
+ "mae_seq": 9.4135,
+ "mae_shuf": 17.9108,
+ "per_block": {
+  "b96_1": 17.5542,
+  "b96_2": 17.6852,
+  "b128_1": 18.1569,
+  "b128_2": 18.247
+ },
+ "extra": {
+  "h": 1,
+  "val_mae": 6.8147,
+  "ridge_cached": true
+ },
+ "mae_seq_exact": 9.413457504162961,
+ "mae_shuf_exact": 17.910844430513002,
+ "seed": 2027,
+ "device": "cpu"
+}

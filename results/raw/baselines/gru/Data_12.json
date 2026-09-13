@@ -1,0 +1,22 @@
+{
+ "method": "gru",
+ "fold": "Data_12",
+ "dataset_no": 12,
+ "mae_seq": 15.6981,
+ "mae_shuf": 15.9957,
+ "per_block": {
+  "b96_1": 15.6255,
+  "b96_2": 15.4646,
+  "b128_1": 16.2349,
+  "b128_2": 16.6579
+ },
+ "extra": {
+  "best_ep": 25,
+  "best_val": 15.2591,
+  "n_sources": 32
+ },
+ "mae_seq_exact": 15.698137283325195,
+ "mae_shuf_exact": 15.995732307434082,
+ "seed": 2027,
+ "device": "cuda:0"
+}

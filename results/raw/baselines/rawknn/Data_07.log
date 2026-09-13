@@ -1,0 +1,9 @@
+command: python -m hingesense.baselines --method rawknn --fold Data_07 --out results/raw/baselines/rawknn --epochs 300 --patience 50
+UserWarning: Can't initialize NVML
+os: Linux-6.8.0-138-generic-x86_64-with-glibc2.35
+cpu: Intel(R) Xeon(R) Platinum 8480C x224, ram 1007.5 GB
+gpu: NVIDIA H100 (driver 580.173.02)
+python 3.11.15, torch 2.12.0+cu130, cuda 13.0
+=== rawknn Data_07 dev=cuda:0 ===
+  [Data_07] rawknn tau=1.0 val_mae=2.0490 anchors=780/636
+*** rawknn Data_07 mae_seq=2.1704 mae_shuf=2.1704

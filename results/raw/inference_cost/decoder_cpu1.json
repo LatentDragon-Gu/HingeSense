@@ -1,0 +1,70 @@
+{
+ "info": {
+  "platform": "Intel Xeon Platinum 8480C CPU, one thread",
+  "pytorch": "2.12.0+cu130",
+  "python": "3.11.15",
+  "cuda": "13.0",
+  "device": "cpu",
+  "threads": 1,
+  "cpu": "Intel(R) Xeon(R) Platinum 8480C",
+  "gpu": "",
+  "weights": "results/raw/decoder/Data_01_model.pt"
+ },
+ "model": {
+  "params": 294417,
+  "params_by_module": {
+   "heads": 17952,
+   "fuse": 41312,
+   "fusegate": 8256,
+   "drift": 226896,
+   "logtau": 1
+  },
+  "size_fp32_MiB": 1.1231117248535156
+ },
+ "compute": {
+  "mac_encode": 310272,
+  "n_anchor": 980,
+  "embed_dim": 96,
+  "mac_anchor_matching": 94080,
+  "anchor_dict_fp32_KiB": 371.328125
+ },
+ "latency_batch1_ms": {
+  "n": 1000,
+  "median_ms": 0.42609497904777527,
+  "mean_ms": 0.42666805698536336,
+  "p95_ms": 0.43772795470431447,
+  "p99_ms": 0.44328701915219426
+ },
+ "latency_batch1_compute_only_ms": {
+  "n": 1000,
+  "median_ms": 0.40418250137008727,
+  "mean_ms": 0.405548058450222,
+  "p95_ms": 0.4141190438531339,
+  "p99_ms": 0.41895697358995676
+ },
+ "throughput": {
+  "1": {
+   "frames_per_s": 2497.4527218714643
+  },
+  "32": {
+   "frames_per_s": 38828.019863446345
+  },
+  "256": {
+   "frames_per_s": 82318.26658775077
+  },
+  "1536": {
+   "frames_per_s": 91822.33456684898
+  }
+ },
+ "feature_step_cpu_us": {
+  "n": 2000,
+  "median_us": 22.43151539005339,
+  "p95_us": 23.032014723867178,
+  "mean_us": 22.502502164570615
+ },
+ "gpu_memory": {},
+ "acquisition_period_ms": 200.0,
+ "fold": "Data_01",
+ "dataset_no": 1,
+ "command": "python -m hingesense.cost --model-dir results/raw/decoder --fold Data_01 --device cpu --threads 1 --iters 1000 --out results/raw/inference_cost/decoder_cpu1.json"
+}

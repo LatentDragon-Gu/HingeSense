@@ -1,0 +1,23 @@
+{
+ "method": "rawknn",
+ "fold": "Data_07",
+ "dataset_no": 7,
+ "mae_seq": 2.1704,
+ "mae_shuf": 2.1704,
+ "per_block": {
+  "b96_1": 2.1704,
+  "b96_2": 2.1704,
+  "b128_1": 2.1704,
+  "b128_2": 2.1704
+ },
+ "extra": {
+  "tau": 1.0,
+  "n_anchor": 636,
+  "n_anchor_val": 780,
+  "val_mae": 2.049
+ },
+ "mae_seq_exact": 2.1704220221506527,
+ "mae_shuf_exact": 2.1704220221506527,
+ "seed": 2027,
+ "device": "cuda:0"
+}

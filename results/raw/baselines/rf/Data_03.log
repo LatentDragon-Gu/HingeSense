@@ -1,0 +1,8 @@
+command: python -m hingesense.baselines --method rf --fold Data_03 --out results/raw/baselines/rf --epochs 300 --patience 50
+os: Linux-6.8.0-138-generic-x86_64-with-glibc2.35
+cpu: Intel(R) Xeon(R) Platinum 8480C x224, ram 1007.5 GB
+gpu: none (driver 580.173.02)
+python 3.11.15, torch 2.12.0+cu130, cuda 13.0
+=== rf Data_03 dev=cpu ===
+  [Data_03] rf cond=noload sources=52 frames=300000/653160
+*** rf Data_03 mae_seq=5.0695 mae_shuf=5.0695

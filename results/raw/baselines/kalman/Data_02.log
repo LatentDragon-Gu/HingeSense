@@ -1,0 +1,8 @@
+command: python -m hingesense.baselines --method kalman --fold Data_02 --out results/raw/baselines/kalman --epochs 300 --patience 50
+os: Linux-6.8.0-138-generic-x86_64-with-glibc2.35
+cpu: Intel(R) Xeon(R) Platinum 8480C x224, ram 1007.5 GB
+gpu: none (driver 580.173.02)
+python 3.11.15, torch 2.12.0+cu130, cuda 13.0
+=== kalman Data_02 dev=cpu ===
+  [Data_02] kalman hp=(1.0, 1.0) val_mae=14.3729
+*** kalman Data_02 mae_seq=14.9274 mae_shuf=16.2591

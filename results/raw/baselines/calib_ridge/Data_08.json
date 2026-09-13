@@ -1,0 +1,20 @@
+{
+ "method": "calib_ridge",
+ "fold": "Data_08",
+ "dataset_no": 8,
+ "mae_seq": 2.408,
+ "mae_shuf": 2.408,
+ "per_block": {
+  "b96_1": 2.408,
+  "b96_2": 2.408,
+  "b128_1": 2.408,
+  "b128_2": 2.408
+ },
+ "extra": {
+  "n_calib": 732
+ },
+ "mae_seq_exact": 2.407998804919055,
+ "mae_shuf_exact": 2.407998804919055,
+ "seed": 2027,
+ "device": "cpu"
+}

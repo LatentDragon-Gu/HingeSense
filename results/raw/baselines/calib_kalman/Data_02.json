@@ -1,0 +1,23 @@
+{
+ "method": "calib_kalman",
+ "fold": "Data_02",
+ "dataset_no": 2,
+ "mae_seq": 2.8449,
+ "mae_shuf": 8.2954,
+ "per_block": {
+  "b96_1": 7.5996,
+  "b96_2": 7.5974,
+  "b128_1": 8.9962,
+  "b128_2": 8.9885
+ },
+ "extra": {
+  "q": 1.0,
+  "r": 1.0,
+  "val_mae": 1.1491,
+  "n_calib": 10164
+ },
+ "mae_seq_exact": 2.844914441314018,
+ "mae_shuf_exact": 8.295420948363851,
+ "seed": 2027,
+ "device": "cpu"
+}

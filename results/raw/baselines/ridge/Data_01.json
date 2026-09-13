@@ -1,0 +1,22 @@
+{
+ "method": "ridge",
+ "fold": "Data_01",
+ "dataset_no": 1,
+ "mae_seq": 9.8069,
+ "mae_shuf": 9.8069,
+ "per_block": {
+  "b96_1": 9.8069,
+  "b96_2": 9.8069,
+  "b128_1": 9.8069,
+  "b128_2": 9.8069
+ },
+ "extra": {
+  "n_train": 638864,
+  "n_total": 638864,
+  "n_sources": 52
+ },
+ "mae_seq_exact": 9.806873194274376,
+ "mae_shuf_exact": 9.806873194274376,
+ "seed": 2027,
+ "device": "cpu"
+}

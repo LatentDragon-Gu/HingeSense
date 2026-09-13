@@ -1,0 +1,4 @@
+Readout,MAE ↑,MAE ↓,Cycle-wise hysteresis
+Representative single-channel linear,4.95,6.15,3.71
+Representative single-channel cubic,2.39,1.82,—
+Proposed multi-electrode decoder,0.433,0.366,0.523

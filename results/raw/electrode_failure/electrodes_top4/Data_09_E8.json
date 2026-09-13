@@ -1,0 +1,21 @@
+{
+ "configuration": "subset",
+ "fold": "Data_09",
+ "dataset_no": 9,
+ "electrode": 8,
+ "n_channels_zeroed": 3,
+ "n_channels_total": 6,
+ "channels": [
+  0,
+  7,
+  14,
+  21,
+  28,
+  98
+ ],
+ "mae_test": 0.4539,
+ "mae_failure": 0.5167,
+ "delta": 0.0629,
+ "mae_test_exact": 0.45386016368865967,
+ "mae_failure_exact": 0.5167236328125
+}

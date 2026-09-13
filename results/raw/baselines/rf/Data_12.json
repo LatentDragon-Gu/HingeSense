@@ -1,0 +1,22 @@
+{
+ "method": "rf",
+ "fold": "Data_12",
+ "dataset_no": 12,
+ "mae_seq": 13.7546,
+ "mae_shuf": 13.7546,
+ "per_block": {
+  "b96_1": 13.7546,
+  "b96_2": 13.7546,
+  "b128_1": 13.7546,
+  "b128_2": 13.7546
+ },
+ "extra": {
+  "n_train": 177632,
+  "n_total": 177632,
+  "n_sources": 32
+ },
+ "mae_seq_exact": 13.754563451625241,
+ "mae_shuf_exact": 13.754563451625241,
+ "seed": 2027,
+ "device": "cpu"
+}

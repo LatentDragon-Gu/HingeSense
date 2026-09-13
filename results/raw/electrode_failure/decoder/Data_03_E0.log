@@ -1,0 +1,2 @@
+command: python -m hingesense.evaluate electrode_failure --fold Data_03 --model-dir results/raw/decoder --electrode 0 --json results/raw/electrode_failure/decoder/Data_03_E0.json
+{"configuration": "full", "fold": "Data_03", "dataset_no": 3, "electrode": 0, "n_channels_zeroed": 15, "n_channels_total": 120, "channels": null, "mae_test": 0.1799, "mae_failure": 0.1868, "delta": 0.0069, "mae_test_exact": 0.17988179624080658, "mae_failure_exact": 0.18679659068584442}

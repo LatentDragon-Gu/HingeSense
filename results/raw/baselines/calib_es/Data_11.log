@@ -1,0 +1,8 @@
+command: python -m hingesense.baselines --method calib_es --fold Data_11 --out results/raw/baselines/calib_es --epochs 300 --patience 50
+os: Linux-6.8.0-138-generic-x86_64-with-glibc2.35
+cpu: Intel(R) Xeon(R) Platinum 8480C x224, ram 1007.5 GB
+gpu: none (driver 580.173.02)
+python 3.11.15, torch 2.12.0+cu130, cuda 13.0
+=== calib_es Data_11 dev=cpu ===
+  [Data_11] calib_es hp=1 val_mae=2.2138
+*** calib_es Data_11 mae_seq=2.488 mae_shuf=16.7875

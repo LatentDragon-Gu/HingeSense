@@ -1,0 +1,22 @@
+{
+ "method": "kalmannet",
+ "fold": "Data_09",
+ "dataset_no": 9,
+ "mae_seq": 9.9883,
+ "mae_shuf": 26.4127,
+ "per_block": {
+  "b96_1": 26.287,
+  "b96_2": 26.0561,
+  "b128_1": 26.7433,
+  "b128_2": 26.5645
+ },
+ "extra": {
+  "best_ep": 15,
+  "best_val": 9.6079,
+  "n_sources": 32
+ },
+ "mae_seq_exact": 9.988302939518004,
+ "mae_shuf_exact": 26.412732397232368,
+ "seed": 2027,
+ "device": "cuda:0"
+}

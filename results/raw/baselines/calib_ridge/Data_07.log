@@ -1,0 +1,8 @@
+command: python -m hingesense.baselines --method calib_ridge --fold Data_07 --out results/raw/baselines/calib_ridge --epochs 300 --patience 50
+os: Linux-6.8.0-138-generic-x86_64-with-glibc2.35
+cpu: Intel(R) Xeon(R) Platinum 8480C x224, ram 1007.5 GB
+gpu: none (driver 580.173.02)
+python 3.11.15, torch 2.12.0+cu130, cuda 13.0
+=== calib_ridge Data_07 dev=cpu ===
+  [Data_07] calib_ridge n_calib=4026
+*** calib_ridge Data_07 mae_seq=3.6815 mae_shuf=3.6815

@@ -1,0 +1,2 @@
+command: python -m hingesense.evaluate electrode_failure --fold Data_10 --model-dir results/raw/electrodes_top4 --electrode 0 --json results/raw/electrode_failure/electrodes_top4/Data_10_E0.json --channels 0,7,14,21,28,98
+{"configuration": "subset", "fold": "Data_10", "dataset_no": 10, "electrode": 0, "n_channels_zeroed": 3, "n_channels_total": 6, "channels": [0, 7, 14, 21, 28, 98], "mae_test": 0.1327, "mae_failure": 0.2083, "delta": 0.0756, "mae_test_exact": 0.1326635628938675, "mae_failure_exact": 0.2082507461309433}

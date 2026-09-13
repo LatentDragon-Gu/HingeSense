@@ -1,0 +1,15 @@
+Method,Mean,Worst,Sub-degree datasets
+Linear,12.29,48.5,0/12
+Exponential Smoothing,12.13/17.49,48.3/48.3,0/12 / 0/12
+Kalman Filter,12.05/16.51,48.5/48.5,0/12 / 0/12
+Random Forest,5.80,20.2,0/12
+Frame-wise MLP,4.54,13.2,0/12
+TCN,4.05/18.10,17.0/26.4,2/12 / 0/12
+GRU,4.85/18.96,16.1/31.1,1/12 / 0/12
+Transformer,4.78/13.16,17.4/24.2,1/12 / 0/12
+KalmanNet,5.84/22.90,15.0/124.3,0/12 / 0/12
+Calibrated Ridge,2.59,4.3,2/12
+Calib. Ridge + Kalman,2.48/10.14,4.3/19.9,2/12 / 0/12
+Calib. Ridge + ES,2.65/10.25,4.3/16.8,2/12 / 0/12
+Soft-kNN (w/o learning),1.32,2.4,5/12
+Ours,0.401,0.741,12/12

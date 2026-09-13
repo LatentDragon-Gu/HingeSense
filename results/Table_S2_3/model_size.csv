@@ -1,0 +1,7 @@
+Quantity,Value
+Parameters,294417
+Model size in FP32 (MiB),1.123
+Linear-layer MACs per query (encoding),310272
+Cached anchors (dataset 1),980
+Anchor embeddings + angle labels in FP32 (KiB),371.3
+"Causal feature update per frame, CPU median (µs)",22.4

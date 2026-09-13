@@ -1,0 +1,10 @@
+{
+ "method": "ours",
+ "ablation": "no_drift_correction",
+ "electrodes": null,
+ "channels": null,
+ "seed": 2027,
+ "epochs": 300,
+ "patience": 50,
+ "command": "python train.py --ablation no_drift_correction --jobs 24 --gpus 0,1"
+}

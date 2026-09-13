@@ -1,0 +1,131 @@
+command: python -m hingesense.trainer --out results/raw/ablation_no_augmentation --target Data_02 --seed 2027 --epochs 300 --patience 50 --ablation no_augmentation
+UserWarning: Can't initialize NVML
+os: Linux-6.8.0-138-generic-x86_64-with-glibc2.35
+cpu: Intel(R) Xeon(R) Platinum 8480C x224, ram 1007.5 GB
+gpu: NVIDIA H100 (driver 580.173.02)
+python 3.11.15, torch 2.12.0+cu130, cuda 13.0
+channel mask top40 = [6, 7, 8, 9, 10, 11, 12, 13, 14, 21, 22, 25, 26, 27, 28, 34, 38, 41, 46, 48, 53, 57, 59, 61, 62, 64, 67, 69, 71, 72, 74, 76, 77, 78, 80, 81, 83, 84, 85, 98]
+=== Data_02 seed=2027 epochs=300 patience=50 ablation=no_augmentation channels=120 dev=cuda:0 ===
+pool=14 folds (flips=False)
+  [Data_02] cond=noload sources=13
+  [Data_02] NEWBEST ep0 val=2.0947 test=1.5622
+  [Data_02] ep 0 val 2.0947 best 2.0947@ep0 pat 0 (7s)
+  [Data_02] NEWBEST ep1 val=1.8492 test=1.5218
+  [Data_02] ep 1 val 1.8492 best 1.8492@ep1 pat 0 (13s)
+  [Data_02] NEWBEST ep2 val=1.4918 test=1.4981
+  [Data_02] ep 2 val 1.4918 best 1.4918@ep2 pat 0 (18s)
+  [Data_02] NEWBEST ep3 val=1.1900 test=1.3258
+  [Data_02] ep 3 val 1.1900 best 1.1900@ep3 pat 0 (25s)
+  [Data_02] ep 4 val 1.2210 best 1.1900@ep3 pat 1 (31s)
+  [Data_02] ep 5 val 1.3522 best 1.1900@ep3 pat 2 (37s)
+  [Data_02] NEWBEST ep6 val=1.0938 test=1.1010
+  [Data_02] ep 6 val 1.0938 best 1.0938@ep6 pat 0 (44s)
+  [Data_02] ep 7 val 1.0989 best 1.0938@ep6 pat 1 (50s)
+  [Data_02] ep 8 val 1.2131 best 1.0938@ep6 pat 2 (56s)
+  [Data_02] NEWBEST ep9 val=1.0938 test=1.1547
+  [Data_02] ep 9 val 1.0938 best 1.0938@ep9 pat 0 (63s)
+  [Data_02] ep 10 val 1.2698 best 1.0938@ep9 pat 1 (70s)
+  [Data_02] ep 11 val 1.4195 best 1.0938@ep9 pat 2 (76s)
+  [Data_02] ep 12 val 1.3681 best 1.0938@ep9 pat 3 (82s)
+  [Data_02] ep 13 val 1.2852 best 1.0938@ep9 pat 4 (89s)
+  [Data_02] NEWBEST ep14 val=1.0658 test=1.0602
+  [Data_02] ep 14 val 1.0658 best 1.0658@ep14 pat 0 (95s)
+  [Data_02] NEWBEST ep15 val=0.9858 test=1.1642
+  [Data_02] ep 15 val 0.9858 best 0.9858@ep15 pat 0 (102s)
+  [Data_02] NEWBEST ep16 val=0.9642 test=1.1213
+  [Data_02] ep 16 val 0.9642 best 0.9642@ep16 pat 0 (108s)
+  [Data_02] ep 17 val 0.9707 best 0.9642@ep16 pat 1 (115s)
+  [Data_02] ep 18 val 1.1368 best 0.9642@ep16 pat 2 (121s)
+  [Data_02] ep 19 val 0.9787 best 0.9642@ep16 pat 3 (127s)
+  [Data_02] ep 20 val 1.0889 best 0.9642@ep16 pat 4 (134s)
+  [Data_02] ep 21 val 1.3660 best 0.9642@ep16 pat 5 (140s)
+  [Data_02] NEWBEST ep22 val=0.9641 test=0.9846
+  [Data_02] ep 22 val 0.9641 best 0.9641@ep22 pat 0 (147s)
+  [Data_02] NEWBEST ep23 val=0.9293 test=0.9166
+  [Data_02] ep 23 val 0.9293 best 0.9293@ep23 pat 0 (153s)
+  [Data_02] ep 24 val 1.2685 best 0.9293@ep23 pat 1 (160s)
+  [Data_02] NEWBEST ep25 val=0.9096 test=0.8976
+  [Data_02] ep 25 val 0.9096 best 0.9096@ep25 pat 0 (166s)
+  [Data_02] NEWBEST ep26 val=0.8337 test=0.9313
+  [Data_02] ep 26 val 0.8337 best 0.8337@ep26 pat 0 (173s)
+  [Data_02] ep 27 val 0.9339 best 0.8337@ep26 pat 1 (180s)
+  [Data_02] ep 28 val 1.0064 best 0.8337@ep26 pat 2 (186s)
+  [Data_02] ep 29 val 0.8801 best 0.8337@ep26 pat 3 (193s)
+  [Data_02] ep 30 val 0.9261 best 0.8337@ep26 pat 4 (199s)
+  [Data_02] ep 31 val 0.8671 best 0.8337@ep26 pat 5 (206s)
+  [Data_02] ep 32 val 1.0159 best 0.8337@ep26 pat 6 (213s)
+  [Data_02] NEWBEST ep33 val=0.8255 test=0.8427
+  [Data_02] ep 33 val 0.8255 best 0.8255@ep33 pat 0 (219s)
+  [Data_02] ep 34 val 0.8338 best 0.8255@ep33 pat 1 (226s)
+  [Data_02] ep 35 val 0.9703 best 0.8255@ep33 pat 2 (233s)
+  [Data_02] ep 36 val 0.8607 best 0.8255@ep33 pat 3 (239s)
+  [Data_02] NEWBEST ep37 val=0.8085 test=0.7774
+  [Data_02] ep 37 val 0.8085 best 0.8085@ep37 pat 0 (246s)
+  [Data_02] ep 38 val 0.8624 best 0.8085@ep37 pat 1 (253s)
+  [Data_02] NEWBEST ep39 val=0.7905 test=0.7854
+  [Data_02] ep 39 val 0.7905 best 0.7905@ep39 pat 0 (259s)
+  [Data_02] ep 40 val 0.9770 best 0.7905@ep39 pat 1 (266s)
+  [Data_02] ep 41 val 0.8391 best 0.7905@ep39 pat 2 (272s)
+  [Data_02] ep 42 val 0.9610 best 0.7905@ep39 pat 3 (279s)
+  [Data_02] ep 43 val 1.0322 best 0.7905@ep39 pat 4 (285s)
+  [Data_02] ep 44 val 0.8671 best 0.7905@ep39 pat 5 (292s)
+  [Data_02] ep 45 val 0.8516 best 0.7905@ep39 pat 6 (298s)
+  [Data_02] ep 46 val 0.9120 best 0.7905@ep39 pat 7 (305s)
+  [Data_02] ep 47 val 1.1377 best 0.7905@ep39 pat 8 (311s)
+  [Data_02] ep 48 val 0.9977 best 0.7905@ep39 pat 9 (317s)
+  [Data_02] ep 49 val 0.8910 best 0.7905@ep39 pat 10 (324s)
+  [Data_02] NEWBEST ep50 val=0.7408 test=0.8879
+  [Data_02] ep 50 val 0.7408 best 0.7408@ep50 pat 0 (330s)
+  [Data_02] ep 51 val 0.9120 best 0.7408@ep50 pat 1 (337s)
+  [Data_02] ep 52 val 0.9828 best 0.7408@ep50 pat 2 (343s)
+  [Data_02] ep 53 val 0.8028 best 0.7408@ep50 pat 3 (349s)
+  [Data_02] ep 54 val 0.9649 best 0.7408@ep50 pat 4 (356s)
+  [Data_02] ep 55 val 1.0222 best 0.7408@ep50 pat 5 (362s)
+  [Data_02] ep 56 val 0.8670 best 0.7408@ep50 pat 6 (368s)
+  [Data_02] ep 57 val 0.7425 best 0.7408@ep50 pat 7 (374s)
+  [Data_02] ep 58 val 0.8219 best 0.7408@ep50 pat 8 (381s)
+  [Data_02] ep 59 val 0.7821 best 0.7408@ep50 pat 9 (387s)
+  [Data_02] ep 60 val 0.8286 best 0.7408@ep50 pat 10 (393s)
+  [Data_02] ep 61 val 0.9912 best 0.7408@ep50 pat 11 (400s)
+  [Data_02] ep 62 val 0.8552 best 0.7408@ep50 pat 12 (406s)
+  [Data_02] ep 63 val 0.8128 best 0.7408@ep50 pat 13 (412s)
+  [Data_02] ep 64 val 0.8234 best 0.7408@ep50 pat 14 (418s)
+  [Data_02] ep 65 val 0.8035 best 0.7408@ep50 pat 15 (425s)
+  [Data_02] ep 66 val 0.8969 best 0.7408@ep50 pat 16 (431s)
+  [Data_02] ep 67 val 0.9628 best 0.7408@ep50 pat 17 (437s)
+  [Data_02] ep 68 val 0.8435 best 0.7408@ep50 pat 18 (443s)
+  [Data_02] ep 69 val 0.8066 best 0.7408@ep50 pat 19 (450s)
+  [Data_02] ep 70 val 0.8822 best 0.7408@ep50 pat 20 (456s)
+  [Data_02] ep 71 val 1.0561 best 0.7408@ep50 pat 21 (462s)
+  [Data_02] ep 72 val 1.0545 best 0.7408@ep50 pat 22 (469s)
+  [Data_02] ep 73 val 1.0162 best 0.7408@ep50 pat 23 (475s)
+  [Data_02] ep 74 val 0.8922 best 0.7408@ep50 pat 24 (481s)
+  [Data_02] ep 75 val 1.0702 best 0.7408@ep50 pat 25 (488s)
+  [Data_02] ep 76 val 0.9652 best 0.7408@ep50 pat 26 (494s)
+  [Data_02] ep 77 val 0.9138 best 0.7408@ep50 pat 27 (501s)
+  [Data_02] ep 78 val 1.1453 best 0.7408@ep50 pat 28 (507s)
+  [Data_02] ep 79 val 1.0813 best 0.7408@ep50 pat 29 (513s)
+  [Data_02] ep 80 val 1.1252 best 0.7408@ep50 pat 30 (519s)
+  [Data_02] ep 81 val 1.0233 best 0.7408@ep50 pat 31 (525s)
+  [Data_02] ep 82 val 1.0125 best 0.7408@ep50 pat 32 (532s)
+  [Data_02] ep 83 val 0.9977 best 0.7408@ep50 pat 33 (537s)
+  [Data_02] ep 84 val 0.9157 best 0.7408@ep50 pat 34 (543s)
+  [Data_02] ep 85 val 0.9087 best 0.7408@ep50 pat 35 (549s)
+  [Data_02] ep 86 val 0.9299 best 0.7408@ep50 pat 36 (555s)
+  [Data_02] ep 87 val 0.9414 best 0.7408@ep50 pat 37 (561s)
+  [Data_02] ep 88 val 0.8640 best 0.7408@ep50 pat 38 (567s)
+  [Data_02] ep 89 val 0.7883 best 0.7408@ep50 pat 39 (573s)
+  [Data_02] ep 90 val 0.8065 best 0.7408@ep50 pat 40 (579s)
+  [Data_02] ep 91 val 0.9089 best 0.7408@ep50 pat 41 (585s)
+  [Data_02] ep 92 val 0.8371 best 0.7408@ep50 pat 42 (591s)
+  [Data_02] ep 93 val 0.9774 best 0.7408@ep50 pat 43 (597s)
+  [Data_02] ep 94 val 0.9386 best 0.7408@ep50 pat 44 (603s)
+  [Data_02] ep 95 val 1.0584 best 0.7408@ep50 pat 45 (609s)
+  [Data_02] ep 96 val 1.0491 best 0.7408@ep50 pat 46 (615s)
+  [Data_02] ep 97 val 1.0431 best 0.7408@ep50 pat 47 (621s)
+  [Data_02] ep 98 val 1.0101 best 0.7408@ep50 pat 48 (627s)
+  [Data_02] ep 99 val 1.0055 best 0.7408@ep50 pat 49 (633s)
+  [Data_02] ep 100 val 0.9149 best 0.7408@ep50 pat 50 (639s)
+  [Data_02] EARLYSTOP ep100 best 0.7408@ep50
+*** Data_02 test MAE 0.888 (639s)
+==== Data_02 DONE

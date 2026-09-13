@@ -1,0 +1,9 @@
+command: python -m hingesense.baselines --method ridge --fold Data_12 --out results/raw/baselines/ridge --epochs 300 --patience 50
+os: Linux-6.8.0-138-generic-x86_64-with-glibc2.35
+cpu: Intel(R) Xeon(R) Platinum 8480C x224, ram 1007.5 GB
+gpu: none (driver 580.173.02)
+python 3.11.15, torch 2.12.0+cu130, cuda 13.0
+=== ridge Data_12 dev=cpu ===
+  [Data_12] ridge cond=assembly sources=32 frames=177632/177632
+LinAlgWarning: An ill-conditioned matrix detected: slice 0 has rcond = 3.986135865829965e-08.
+*** ridge Data_12 mae_seq=6.805 mae_shuf=6.805

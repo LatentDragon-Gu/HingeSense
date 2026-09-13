@@ -1,0 +1,9 @@
+Configuration,Mean,Worst,Sub-deg. datasets
+Complete system (16 electrodes),0.401,0.74,12/12
+w/o drift-correction network,2.255,3.25,0/12
+w/o causal differential features,2.193,3.19,0/12
+w/o channel mask (all 120 channels),0.742,2.03,9/12
+w/o normalization reference pathway,0.408,0.74,12/12
+w/o noise-drift perturbation,0.491,1.23,11/12
+w/o geometric symmetry augmentation,0.454,0.81,12/12
+w/o all augmentation,0.620,1.71,11/12

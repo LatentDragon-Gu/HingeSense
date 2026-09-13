@@ -1,0 +1,22 @@
+{
+ "method": "transformer",
+ "fold": "Data_04",
+ "dataset_no": 4,
+ "mae_seq": 17.4227,
+ "mae_shuf": 17.5838,
+ "per_block": {
+  "b96_1": 17.5951,
+  "b96_2": 17.5813,
+  "b128_1": 17.5804,
+  "b128_2": 17.5783
+ },
+ "extra": {
+  "best_ep": 2,
+  "best_val": 17.3643,
+  "n_sources": 52
+ },
+ "mae_seq_exact": 17.422672271728516,
+ "mae_shuf_exact": 17.58379888534546,
+ "seed": 2027,
+ "device": "cuda:0"
+}

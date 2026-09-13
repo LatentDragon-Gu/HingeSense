@@ -1,0 +1,18 @@
+command: python -m hingesense.evaluate importance --fold Data_09 --model-dir results/raw/decoder --json results/raw/importance/Data_09.json
+  [Data_09] e0  mean_perm=6.6638 imp=+6.2984 (1s)
+  [Data_09] e1  mean_perm=6.0685 imp=+5.7032 (1s)
+  [Data_09] e2  mean_perm=0.4252 imp=+0.0598 (2s)
+  [Data_09] e3  mean_perm=1.9482 imp=+1.5828 (2s)
+  [Data_09] e4  mean_perm=2.4686 imp=+2.1032 (3s)
+  [Data_09] e5  mean_perm=0.7497 imp=+0.3843 (3s)
+  [Data_09] e6  mean_perm=3.7118 imp=+3.3464 (4s)
+  [Data_09] e7  mean_perm=2.4012 imp=+2.0358 (4s)
+  [Data_09] e8  mean_perm=7.6228 imp=+7.2574 (5s)
+  [Data_09] e9  mean_perm=3.5774 imp=+3.2120 (5s)
+  [Data_09] e10 mean_perm=0.6826 imp=+0.3173 (6s)
+  [Data_09] e11 mean_perm=0.7674 imp=+0.4020 (6s)
+  [Data_09] e12 mean_perm=2.9149 imp=+2.5496 (7s)
+  [Data_09] e13 mean_perm=0.7549 imp=+0.3895 (7s)
+  [Data_09] e14 mean_perm=3.6203 imp=+3.2549 (8s)
+  [Data_09] e15 mean_perm=4.9371 imp=+4.5717 (8s)
+{"fold": "Data_09", "dataset_no": 9, "mae_test": 0.3654, "permutations": 10, "importance": {"e0": 6.2984, "e1": 5.7032, "e2": 0.0598, "e3": 1.5828, "e4": 2.1032, "e5": 0.3843, "e6": 3.3464, "e7": 2.0358, "e8": 7.2574, "e9": 3.212, "e10": 0.3173, "e11": 0.402, "e12": 2.5496, "e13": 0.3895, "e14": 3.2549, "e15": 4.5717}, "importance_norm": {"e0": 0.8679, "e1": 0.7858, "e2": 0.0082, "e3": 0.2181, "e4": 0.2898, "e5": 0.053, "e6": 0.4611, "e7": 0.2805, "e8": 1.0, "e9": 0.4426, "e10": 0.0437, "e11": 0.0554, "e12": 0.3513, "e13": 0.0537, "e14": 0.4485, "e15": 0.6299}}

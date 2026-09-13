@@ -1,0 +1,16 @@
+{
+ "fold": "Data_03",
+ "dataset_no": 3,
+ "mae_test": 0.18,
+ "mae_test_exact": 0.17988179624080658,
+ "best_epoch": 9,
+ "epochs_run": 60,
+ "val_mae_best": 0.3287782371044159,
+ "n_sources": 52,
+ "seed": 2027,
+ "ablation": "none",
+ "n_channel": 120,
+ "mask_k": 40,
+ "train_time_s": 381.5,
+ "device": "cuda:0"
+}

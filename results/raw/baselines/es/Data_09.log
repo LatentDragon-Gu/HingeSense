@@ -1,0 +1,8 @@
+command: python -m hingesense.baselines --method es --fold Data_09 --out results/raw/baselines/es --epochs 300 --patience 50
+os: Linux-6.8.0-138-generic-x86_64-with-glibc2.35
+cpu: Intel(R) Xeon(R) Platinum 8480C x224, ram 1007.5 GB
+gpu: none (driver 580.173.02)
+python 3.11.15, torch 2.12.0+cu130, cuda 13.0
+=== es Data_09 dev=cpu ===
+  [Data_09] es hp=1 val_mae=5.8219
+*** es Data_09 mae_seq=6.7544 mae_shuf=15.37

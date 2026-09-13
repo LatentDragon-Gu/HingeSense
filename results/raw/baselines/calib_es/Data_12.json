@@ -1,0 +1,22 @@
+{
+ "method": "calib_es",
+ "fold": "Data_12",
+ "dataset_no": 12,
+ "mae_seq": 0.6416,
+ "mae_shuf": 2.1236,
+ "per_block": {
+  "b96_1": 1.8488,
+  "b96_2": 1.8891,
+  "b128_1": 2.3897,
+  "b128_2": 2.3668
+ },
+ "extra": {
+  "h": 1,
+  "val_mae": 0.5962,
+  "n_calib": 4808
+ },
+ "mae_seq_exact": 0.6415618207953239,
+ "mae_shuf_exact": 2.12361140655862,
+ "seed": 2027,
+ "device": "cpu"
+}
